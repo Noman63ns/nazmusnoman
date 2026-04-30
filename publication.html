@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+}
+
+/* Navigation */
+.nav-icons {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.nav-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Main Container */
+.container {
+    width: 70%;
+    margin: 100px auto;
+    background: #ADD6C6;
+    padding: 30px;
+        border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+.divider {
+    grid-column: 1 / -1;
+    height: 2px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+ 
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid #000;
+    margin-top: 40px;
+    background: #fff;
+
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<div class="nav-icons">
+    <a href="C:\Users\HP\Downloads\ns\portfolio.htm">🏠 Home</a>
+    <a href="C:\Users\HP\Downloads\ns\project.html">📁 Projects</a>
+    <a href="#">📄 Publications</a>
+    <a href="C:\Users\HP\Downloads\ns\contact.html">📞 Contact</a>
+</div>
+
+<!-- Main Container -->
+<div class="container">
+
+     <!-- Bio -->
+    <div class="bio">
+        <h2>Improving Multimodal Stress Detection Using MAUS Dataset with PPG, ECG and GSR Signal</h2>
+         <h4>MD. Nayeem Al Hasan; Nazmus Salehin Noman; Mehdi Hasan Chowdhury; Aditta Chowdhury;</h4>
+         <h3>Abstract</h3>
+        <p>
+        Stress is the emotional and cognitive strain a person feels when confronted with demanding, challenging, or overpowering events. Stress can be caused by various factors that can have harmful effects on physical and mental health. In this study, we proposed a supervised machine learning-based classifier model for the detection of stress in humans using an MAUS dataset. MAUS is an open-access database that contains records of fingertip PPG, galvanic skin response (GSR), electrocardiography (ECG) and wrist-worn PPG. We extracted different heart rate variability (HRV) features, such as Time domain features and Frequency domain features from ECG, PPG(fingertip) and GSR. Concatenated the features, different classifier methods have been applied. Finally, an accuracy of 89% is achieved by using the Random Forest classifier with Hyperparameter tuning.
+            </p>
+   <a href="https://ieeexplore.ieee.org/document/11013834">DOI: 10.1109/ECCE64574.2025.11013834</a>
+ </div>
+<div class="divider"></div>
+<div class="bio">
+        <h2>Multimodal Stress Detection :
+Integrating ECG, EEG and PPG Signals</h2>
+         <h4>MD. Nayeem Al Hasan; Nazmus Salehin Noman; Mehdi Hasan Chowdhury;</h4>
+         <h3>Abstract</h3>
+        <p>
+       Stress is a major risk factor for numerous health conditions such as hypertension, heart at-
+tacks, strokes, and even sudden death. Research has established a strong link between stress
+and cognitive functions such as decision-making, performance, and learning. Stress can be de-
+tected non-invasively by using various physiological signals such as: Electroencephalogram
+(EEG), Electrocardiogram (ECG), Photoplethysmogram (PPG) etc. The electroencephalo-
+gram (EEG) signal provides complementary data by computing brain activity which is related
+to stress response. EEG is the most convenient modality to analyze the cortical response to
+stress due to its low cost and practical use. Additionally, since EEG has a high temporal reso-
+lution, it provides useful information to explore variability in a mental state. However, EEG
+signals are prone to be affected by motion, eye, or muscle artifacts. Another effective way to
+determine stress levels is through heart rate variability (HRV), which can be derived from elec-
+trocardiogram (ECG) data and photoplethysmogram (PPG). HRV represents the fluctuations
+in the time intervals between successive heartbeats. HRV serves as an indicator of autonomic
+nervous system balance, reflecting interactions between the sympathetic and parasympathetic
+branches. Unlike other physiological markers, HRV can detect subtle stress-related changes
+even when parameters like blood pressure remain within normal ranges. In this study, we
+proposed a supervised machine learning-based classifier model for the detection of stress in
+humans using our local collected datasets. Our locally collected data set contains record of
+ECG, EEG and fingertip PPG signals from 32 participants. Advanced filtering method was
+applied to each signal. We extracted different features from these signals, including time do-
+main HRV features, frequency domain HRV features and EEG features such as different band
+power. We concatenated these features to form a robust feature set and applied different clas-
+sifier methods through machine learning. Finally, an accuracy of 96% is achieved by using the
+Random Forest classifier. At the end, we validated our approach on three benchmark datasets,
+MAUS, CLAS and EEGMAT to show its generalization ability. Performance metrics includ-
+ing accuracy, precision, recall and F1-score were computed to provide the evaluation of our
+model’s effectiveness.
+            </p>
+   <a href="https://drive.google.com/drive/u/1/folders/1GqWiJfd31xzhKu_DfZ2iRd6WHgxElwRl">Thesis</a>
+</div>
+</div>
+
+<!-- Footer -->
+<footer>
+    © 2026 NS Noman. All rights reserved.
+</footer>
+
+</body>
+</html>
+
+
+

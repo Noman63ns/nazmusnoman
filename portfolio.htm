@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Portfolio</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+}
+
+/* Navigation */
+.nav-icons {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.nav-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Main Container */
+.container {
+    width: 70%;
+    margin: 100px auto;
+    background: #ADD6C6;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Photo */
+.photo img {
+    width: 100%;
+    border-radius: 12px;
+}
+.photo2 img {
+    width: 70%;
+    border-radius: 12px;
+}
+
+/* Bio */
+.bio {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.bio h2 {
+    color: lightcoral;
+    margin-top: 0;
+}
+
+/* Divider */
+.divider {
+    grid-column: 1 / -1;
+    height: 2px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+/* Skills Section (FIXED) */
+.skills-grid {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.skill-box {
+    background: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.skill-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.skill-box h3 {
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.skill-box ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 18px;
+}
+
+/* Certifications */
+
+.certifications {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-top: 60px;
+    
+}
+
+/* Bottom */
+.bottom {
+    grid-column: 1 / -1;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 2px solid #ddd;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid #000;
+    margin-top: 40px;
+    background: #fff;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<div class="nav-icons">
+    <a href="#">🏠 Home</a>
+    <a href="C:\Users\HP\Downloads\ns\project.html">📁 Projects</a>
+    <a href="C:\Users\HP\Downloads\ns\publication.html">📄 Publications</a>
+    <a href="C:\Users\HP\Downloads\ns\contact.html">📞 Contact</a>
+</div>
+
+<!-- Main Container -->
+<div class="container">
+
+    <!-- Photo -->
+    <div class="photo">
+        <img src="pp.jpg" alt="Profile Photo">
+    </div>
+
+    <!-- Bio -->
+    <div class="bio">
+        <h2>Nazmus Salehin Noman</h2>
+
+        <p>
+        I am Nazmus Salehin Noman, born in Kushtia, Bangladesh. I spent my childhood in my village, where I completed my primary and secondary education. After passing my SSC in 2017 from Khoksa Janipur Pilot Secondary School, I moved to Dhaka, the capital city of Bangladesh, to pursue higher secondary education. I completed my HSC in 2019 from Notre Dame College, Dhaka, one of the country’s leading institutions, in the science group.
+
+For my undergraduate studies, I had the opportunity to be selected for several top universities and was privileged to enroll at the Chittagong University of Engineering and Technology (CUET) in the Department of Electrical and Electronic Engineering, where I completed my BSc degree. During my academic journey, I gained valuable industrial experience through attachments at GEMCO in my second year and the Kaptai Hydropower Plant in my fourth year. I also completed an internship at Dhaka Electric Supply Company (DESCO). Additionally, I served as the President of the Greater Kushtia Student Association at CUET, where I developed strong leadership and organizational skills.
+
+My thesis focused on biomedical signal processing, and I specialize in signal processing, machine learning, and deep learning. I have worked on several projects and publications in these areas, which are highlighted in the respective sections of my portfolio.
+
+Beyond academics, I am passionate about traveling. I have explored many beautiful places across Bangladesh, which has allowed me to experience diverse cultures and understand the lifestyles and struggles of different communities, and I am highly motivated to serve the people through my research and work.
+        </p>
+    </div>
+
+    <div class="divider"></div>
+     <h2>Skills</h2>
+    <!-- Skills -->
+    <div class="skills-grid">
+        
+        <div class="skill-box">
+            <h3>Signal Processing</h3>
+            <ul>
+                <li>EEG / ECG / PPG</li>
+                <li>Filtering</li>
+                <li> SciPy</li>                      
+                <li>Feature Extraction</li>
+            </ul>
+        </div>
+
+        <div class="skill-box">
+            <h3>Programming Language</h3>
+            <ul>
+                <li>Python</li>
+                <li>MATLAB</li>
+            </ul>
+        </div>
+
+        <div class="skill-box">
+            <h3>Frontend</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Dash</li>
+                <li>Streamlit</li>
+            </ul>
+        </div>
+
+        <div class="skill-box">
+            <h3>Backend</h3>
+            <ul>
+                <li>Flask</li>
+            </ul>
+        </div>
+        <div class="skill-box">
+    <h3>Data Analysis Tools</h3>
+    <ul>
+        <li>Pandas</li>
+        <li>NumPy</li>
+        <li>Excel</li>
+        
+    </ul>
+</div>
+        <div class="skill-box">
+            <h3>Visualization</h3>
+            <ul>
+                <li>Origin</li>
+                <li>Matplotlib</li>
+                <li>Potly</li>
+            </ul>
+        </div>
+         <div class="skill-box">
+            <h3>Machine Learning</h3>
+            <ul>
+                <li>Supervised Learning</li>
+                <li>Unsupervised Learning</li>
+                <li>Reinforcement Learning</li>
+            </ul>
+        </div>
+
+
+    </div>
+
+    <!-- Certifications -->
+    <div class="divider"></div>
+     <h2>Certifications</h2>
+    <div class="certifications">
+        <div>
+        <h2>Python</h2>
+        <div class="photo2">
+        <img src="python.png" alt="Profile Photo">
+         </div>
+        </div>
+        <div>
+        <h2>Machine Learning</h2>
+        <div class="photo2">
+        <img src="ml.jpg" alt="Profile Photo">
+         </div>
+        </div>
+        
+        <div>
+        <h2>Deep Learning</h2>
+        <div class="photo2">
+        <img src="dl.jpg" alt="Profile Photo">
+         </div>
+        </div>
+        
+        <div>
+        <h2>Signal Processing</h2>
+        <div class="photo2">
+        <img src="sp.jpg" alt="Profile Photo">
+         </div>
+        </div>
+        
+        <div>
+        <h2>Engineering Design and Analysis with MATLAB</h2>
+        <div class="photo2">
+        <img src="edge.jpg" alt="Profile Photo">
+         </div>
+        </div>
+
+    </div>
+
+    <!-- Bottom -->
+    <div class="bottom">
+        <p>More details available in Projects & Publications section.</p>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    © 2026 NS Noman. All rights reserved.
+</footer>
+
+</body>
+</html>
